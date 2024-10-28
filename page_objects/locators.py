@@ -1,0 +1,28 @@
+from selenium.webdriver.common.by import By
+
+FIRST_LOGO_XPATH = (By.XPATH, "//body[@class='body-style']//img[@class='img-fluid']")
+PRACTICE_PAGE = (By.XPATH, "//h1[text()='Practice Page']")
+SELECT_BMW_RADIO_EXAMPLE = (By.XPATH, "//input[@id='bmwradio']")
+SELECT_HONDA_CHECKBOX_EXAMPLE = (By.XPATH, "//input[@id='hondacheck']")
+SELECT_CLASS_EXAMPLE_DROPDOWN = (By.CSS_SELECTOR, "#carselect")
+SELECT_CLASS_EXAMPLE_BENZ = (By.XPATH, "//option[@value='benz']")
+MULTIPLE_SELECT_EXAMPLE_PEACH= (By.XPATH, "//option[@value='peach']")
+AUTO_SUGGEST_EXAMPLE_INPUT = (By.XPATH, "//input[@placeholder='Start Typing...']")
+DISABLE_BUTTON = (By.XPATH, "//input[@id='disabled-button']")
+ELEMENT_DISPLAYED_HIDE = (By.XPATH, "//input[@id='hide-textbox']")
+ELEMENT_DISPLAYED_SHOW = (By.XPATH, "//input[@id='show-textbox']")
+HIDE_OR_SHOW_EXAMPLE = (By.XPATH, "//input[@id='displayed-text']")
+SWITCH_TO_ALERT_INPUT = (By.CSS_SELECTOR, "input[placeholder='Enter Your Name']")
+SWITCH_TO_ALERT_BUTTON = (By.XPATH, "//input[@id='alertbtn']")
+MOUSE_HOVER_BUTTON = (By.XPATH, "//button[@id='mousehover']")
+MOUSE_HOVER_TOP = (By.XPATH, "//a[@href='#top']")
+MOUSE_HOVER_RELOAD = (By.XPATH, "//a[@href='#top']")
+IFRAME_EXAMPLE = (By.XPATH, "//*[text()='iFrame Example']")
+LOGO_CSS = (By.CSS_SELECTOR, "div[data-uniqid='1621915477051']>div>nav>div>div>a>img")
+
+ALL_COURSES_CSS = (By.XPATH, "//a[contains(text(),'ALL COURSES')]")
+FIRST_COURSE = (By.CSS_SELECTOR ,"div#course-list>div:first-of-type")
+FIRST_COURSE_NAME_AFTER_CLICKING = (By.CSS_SELECTOR, "div[data-uniqid='1577350748403']+#header19>div>div>div>div>div>div>h1")
+
+SWITCH_TAB_EXAMPLE_OPEN = (By.CSS_SELECTOR, "#opentab")
+NEW_TAB_ELEMENT = (By.XPATH, "//label[contains(text(),'Category')]")
